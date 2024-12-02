@@ -130,7 +130,7 @@ func removeIndex(slice []string, s int) []string {
 }
 
 func main() {
-	var puzzle [][]string = getArrays()
+	var puzzle = getArrays()
 	findSafeReports(puzzle)
 	part2(puzzle)
 }
